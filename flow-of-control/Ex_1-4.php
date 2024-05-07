@@ -1,5 +1,6 @@
 <?php
 // Exercise #1
+// print the largest number
 
 echo "Input the 1st number: ";
 $numberOne = (int)readline();
@@ -10,17 +11,15 @@ $numberTwo = (int)readline();
 echo "Input the 3rd number: ";
 $numberThree = (int)readline();
 
-//todo print the largest number
-
 $largest = max($numberOne, $numberTwo, $numberThree);
 echo "The largest number out of the three was $largest." . PHP_EOL;
 
 // Exercise #2
+// print if number is positive or negative
 
 echo "Enter the number.";
 $numberSign = (int)readline();
 
-//todo print if number is positive or negative
 if ($numberSign > 0) {
     echo "The number is positive." . PHP_EOL;
 } elseif ($numberSign < 0) {
